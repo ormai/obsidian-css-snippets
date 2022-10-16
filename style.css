@@ -1,0 +1,106 @@
+/* Open folder vertical line */
+.nav-folder-children .nav-folder-children{ 
+  border-left: 1px solid var(--yellow1) !important; }
+
+strong, span.cm-strong { color: var(--green1) !important; }             /* Bold*/
+em, span.cm-em { color: var(--blue1) !important; }                      /* Italic*/
+mjx-container { font-size: 24px;  color: var(--red1); }                 /* Math */
+code { padding: 4px 6px 5px; }                                          /* Code */
+
+/* EMBEDS */
+div.markdown-embed-title { display: none; }
+div.markdown-embed {
+  background-color: var(--bg0_h) ;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 10px 30px 10px 10px !important; }
+div.markdown-embed-link::after {
+  content: "⇆";
+  font-size: 30px;
+  color: var(--aqua1);
+  margin-right: 10px;}
+div.markdown-embed-link {
+  width: 50px !important;
+  height: 100%; }
+
+/* Headers shall not have margins when embedded */
+.markdown-embed h1, .markdown-embed h2,
+.markdown-embed h3, .markdown-embed h3,
+.markdown-embed h5, .markdown-embed h6 {
+margin-top: 0 !important;}
+
+/* FOOTNOTES */
+.cm-s-obsidian .HyperMD-footnote, .footnotes { font-size: var(--font-normal) !important; }
+/* TABLES */
+th, td, .cm-s-obsidian .HyperMD-table-row { 
+  font-size: var(--font-normal) !important; }
+table {
+  margin: 0px auto !important;}
+
+/* yaml synctax hightlighting */
+.cm-s-obsidian .cm-def.cm-hmd-frontmatter, 
+.cm-s-obsidian .cm-hmd-frontmatter { 
+  font-size: var(--font-normal); /* don't use --font-adaptive-small */} 
+span.cm-def.cm-hmd-frontmatter { color: var(--yellow1) !important; }    /* --- */
+span.cm-atom.cm-hmd-frontmatter { color: var(--aqua1) !important; }     /* keys */
+span.cm-hmd-frontmatter.cm-meta { color: var(--purple1) !important; }   /* symbols */
+.cm-variable-2 { color: var(--aqua1) !important; }                      /* variables */
+
+
+/*  Math block syntax hightlighting */
+.cm-s-obsidian .cm-inline-code, .cm-s-obsidian .cm-math { 
+  color: var(--orange1);                                                /* symbols */}
+span.cm-math { font-style: normal !important; }                         /* Avoid italic */
+.token.keyword, .cm-keyword, .cm-builtin {
+  color: var(--red1) !important;                                        /* dollar signs $1 + 1 = 2$ */}
+span.cm-math.cm-tag { color: var(--purple1) !important; }               /* Latex keywords */
+span.cm-math.cm-number { color: var(--yellow1); }                       /* Numbers */
+span.cm-bracket.cm-math { color: var(--blue1); }                        /* Brackets */
+
+/* Headings */
+
+.cm-s-obsidian .cm-header-1,
+.empty-state-title,
+.markdown-preview-view h1,
+.markdown-rendered h1, h1 {
+  color: var(--fg0) !important;
+  font-size: 1.8rem !important;
+  text-shadow: var(--fg0) 0 0 3px;
+  margin-bottom: 0}
+
+.cm-s-obsidian .cm-header-2, 
+.markdown-preview-view h2, 
+.markdown-rendered h2 { 
+  color: var(--fg0) !important; 
+  font-size: 1.55rem !important; 
+  margin-bottom: 0}
+
+.cm-s-obsidian .cm-header-3, 
+.markdown-preview-view h3, 
+.markdown-rendered h3 { 
+  color: var(--fg0) !important; 
+  font-size: 1.5rem !important; 
+  margin-bottom: 0}
+
+.cm-s-obsidian .cm-header-4, 
+.markdown-preview-view h4, 
+.markdown-rendered h4 { 
+  color: var(--fg0) !important; 
+  font-size: 1.4rem !important; 
+  margin-bottom: 0}
+
+.cm-s-obsidian .cm-header-5, 
+.markdown-preview-view h5, 
+.markdown-rendered h5 { 
+  color: var(--f0_h) !important; 
+  font-size: 1.3rem !important; 
+  margin-bottom: 0}
+
+/* H6 is different. In this way it's easy to embed as quote or other */
+span.cm-header.cm-header-6, 
+.markdown-preview-view h6, 
+.markdown-rendered h6, h6 {
+  margin: 5px 0 !important; 
+  color: var(--fg3) !important; 
+  font-variant: none; 
+  font-size: 18px !important; }

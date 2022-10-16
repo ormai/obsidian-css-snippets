@@ -1,0 +1,55 @@
+.nav-folder-title[data-path="collections"] {
+  color: var(--bg2);
+  background: var(--red1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="cs"] {
+  color: var(--bg2);
+  background: var(--orange1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="diario"] {
+  color: var(--bg2);
+  background: var(--yellow1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="matematica"] {
+  color: var(--bg2);
+  background: var(--green1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="meta"] {
+  color: var(--bg2);
+  background: var(--aqua1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="scuola"] {
+  color: var(--bg2);
+  background: var(--blue1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="università"] {
+  color: var(--bg2);
+  background: var(--purple1) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}
+
+.nav-folder-title[data-path="void"] {
+  color: var(--bg2);
+  background: var(--fg2) !important;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+}

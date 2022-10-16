@@ -1,0 +1,91 @@
+/* Callout types and icons are defined in CSS, where the color is an r, g, b tuple
+and the icon is the icon ID from any internally supported icon (like lucide-info). 
+Alternatively, you can specify an SVG icon as a string.
+.callout[data-callout="my-callout-type"] {
+  --callout-color: 0, 0, 0;
+  --callout-icon: icon-id;
+  --callout-icon: '<svg>...custom svg...</svg>';
+}
+source: https://help.obsidian.md/How+to/Use+callouts#Customizations
+*/
+
+.callout {
+  border: 1px solid rgb(var(--callout-color));
+  border-radius: 5px;
+  background-color: rgba(var(--callout-color), 0.1);
+}
+
+/* Adjust the margin of the callout content */
+div.callout-content p {
+  margin: 3px 0 !important;}
+
+div.callout-title-inner {
+  color: var(--fg);}
+
+div.callout-content {
+  background-color: rgba(var(--callout-color), 0.05)c; }
+
+/* COLOROS */
+
+.callout[data-callout="note"] {
+  --callout-color: 254, 128, 25 /*#fe8019*/!important;
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="hint"],
+.callout[data-callout="important"] {
+  --callout-color: 72, 133, 136 /*#488488*/!important;
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] {
+  --callout-color: 7, 102, 120 /*#076678*/ !important;
+}
+
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  --callout-color: 102, 92, 84 /*#665c54*/ !important;
+}
+
+.callout[data-callout="example"] {
+  --callout-color: 211, 134, 155 /*#d3869b*/ !important;
+}
+
+.callout[data-callout="bug"] {
+  --callout-color: 143, 63, 113 /*#8f3f71*/ !important;
+}
+
+.callout[data-callout="error"],
+.callout[data-callout="danger"] {
+  --callout-color: 204, 36, 29 /*#cc241d*/ !important;
+}
+
+.callout[data-callout="fail"],
+.callout[data-callout="failure"],
+.callout[data-callout="missing"] {
+  --callout-color: 251, 73, 52 /*#fb4934*/ !important;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  --callout-color: 250, 189, 47 /*#fabd2f*/ !important;
+}
+
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  --callout-color: 184, 187, 38 /*#b8bb26*/ !important;
+}
+
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  --callout-color: 121, 116, 14 /*#79740e*/ !important;
+}
+
+.callout[data-callout="info"],
+.callout[data-callout="todo"] {
+  --callout-color: 142, 192, 124 /*#8ec07c*/ !important;
+}

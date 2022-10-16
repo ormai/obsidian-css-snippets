@@ -1,0 +1,17 @@
+/* DROP CAPS */
+/* Inspired by: https://www.gwern.net/Design#principles */
+
+.dcaps {
+  color: var(--fg);
+  float: left;
+  font-family: "Acorn Initials";
+  font-size: 6em;
+  line-height: 100%;
+  margin: 0 0 -10px 0;
+  width: 100px;
+}
+
+.dcaps:hover {
+  color: var(--orange);
+  transition: color 0.2s ease-in-out;
+}
