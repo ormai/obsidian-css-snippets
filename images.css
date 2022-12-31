@@ -1,5 +1,5 @@
 body:not(.zoom-off) .view-content img {
-  cursor: default;
+  cursor: default !important;
 }
 
 .markdown-preview-view img, .markdown-source-view img {
