@@ -2,7 +2,7 @@ My collection of css snippets for [Obsidian](https://obsidian.md).
 
 ### Drop caps
 
-![dropcaps](media/dropcaps.png)
+![dropcaps](media/drop-caps.png)
 
 This snippet implements the [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian.
 
