@@ -1,3 +1,5 @@
+/* GRUVBOX - https://github.com/morhetz/gruvbox#palette */
+
 .theme-dark {
   --bg: var(--bg0);
   --fg: var(--fg1);

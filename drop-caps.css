@@ -1,10 +1,11 @@
 /* DROP CAPS */
 /* Inspired by: https://www.gwern.net/Design#principles */
 
+/* .dcaps sets a different fonts to the text which is assigned */
 .dcaps {
   color: var(--fg);
   float: left;
-  font-family: "Acorn Initials";
+  font-family: "Acorn Initials"; /* Most important */
   font-size: 6em;
   line-height: 100%;
   margin: 0 0 -10px 0;
@@ -12,6 +13,6 @@
 }
 
 .dcaps:hover {
-  color: var(--orange);
+  color: var(--orange1);
   transition: color 0.2s ease-in-out;
 }

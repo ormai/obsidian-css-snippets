@@ -49,23 +49,23 @@ body:not(.zoom-off) .view-content img {
 }
 
 /* ALIGNMENT */
-
+/* https://github.com/deathau/obsidian-snippets/blob/main/center-images.css */
 /* Syntax: ![[image.png|center|500]] */
 
 img[alt*="left"] {
-    float:left;
-    clear:left;
-    margin-right: 2rem;
-    margin-bottom: 4px;
-    margin-top: 4px;
+  float:left;
+  clear:left;
+  margin-right: 2rem;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
 img[alt*="right"] {
-    float:right;
-    clear:right;
-    margin-right: 2rem;
-    margin-bottom: 4px;
-    margin-top: 4px;
+  float:right;
+  clear:right;
+  margin-right: 2rem;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
 img[alt*="center"] {
