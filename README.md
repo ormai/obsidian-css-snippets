@@ -3,7 +3,7 @@ My collection of css snippets for [Obsidian](https://obsidian.md).
 ### Drop caps
 
 
-This snippet implements the [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian.
+This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian.
 
 The letter to alter is sourrounded by the following tags:
 
