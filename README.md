@@ -15,7 +15,7 @@ The letter to alter is sourrounded by the following tags:
 
 ### Embeddable quotes
 
-The style of the H6 header is similar to that of the quote block. In this way multiple quotes contained in multiple files can be easily embedded indivually.
+The style of the H6 header is similar to that of the quote block. In this way multiple quotes contained in multiple files across the vault can be individually embedded.
 
 ```markdown
 ![[quotes#Power is not a means, it is an end. One does not establish a dictatorship in order to safeguard a revolution; one makes the revolution in order to establish the dictatorship. The object of persecution is persecution. The object of torture is torture. The object of power is power.]]
@@ -25,7 +25,7 @@ The style of the H6 header is similar to that of the quote block. In this way mu
 
 ### Images
 
-Images have rounded corners, nice hover effect, drop shadow and they can be aligned.
+Images have rounded corners, nice hover effect, shadows and they can be aligned.
 
 ```markdown
 ![[image.png|center|500]]
