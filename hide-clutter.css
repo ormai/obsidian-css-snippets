@@ -17,12 +17,6 @@ div.frontmatter-container { display:none; }
 }
 
 /* Suggestions, instructions and tooltips */
-/* .suggestion-container.mod-search-suggestion { display: none; } */
-/* .prompt-instructions { display:none; } */
-/* .tooltip { display:none; } */
-
-/* Tabs bar */
-/* .workspace-ribbon { display: none; }  */
-
-/* Sidebars */
-/* .workspace-tab-header-container { display: none; }  */
+.suggestion-container.mod-search-suggestion { display: none; }
+.prompt-instructions { display:none; }
+.tooltip { display:none; }
