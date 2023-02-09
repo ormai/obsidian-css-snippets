@@ -11,8 +11,10 @@ source: https://help.obsidian.md/How+to/Use+callouts#Customizations
 
 /* Adjust the margin of the callout content */
 div.callout-content p {
-  margin: 3px 0 !important;}
+  margin: 3px 0 !important;
+}
 
 div.callout-title-inner {
   color: var(--fg);
-  margin-left: 8px;}
+  margin-left: 8px;
+}
