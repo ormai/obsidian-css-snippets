@@ -35,8 +35,8 @@
 }
 
 .theme-light {
-  --bg: var(--bg0)
-  --fg: var(--fg1)
+  --bg: var(--bg0);
+  --fg: var(--fg1);
 
   --orange0:  #D65D0E;
   --orange1:  #AF3A03;
