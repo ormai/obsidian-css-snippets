@@ -3,7 +3,7 @@
 This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian. It works by assigning a specific font to a characted who has been given the 'dcaps' css class:
 
 ```html
-<span style="dcaps">I</span>
+<span class="dcaps">I</span>
 ```
 
 ![dropcaps](media/drop-caps.png)
