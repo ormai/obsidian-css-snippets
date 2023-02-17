@@ -8,9 +8,11 @@
     - YAML syntax highlighting
     - MathJax syntax highlighing
     - HEADINGS
+    - TAGS
 */
 
 /* COLORS */
+@import "colors.css"; /* Not really needed inside obsidian. */
 
 * {
   --bold-color: var(--green1);
@@ -29,16 +31,13 @@ code {
 }
 
 /* EMBEDS */
-
-div.markdown-embed-title { display: none; }          /* Embeds have no title */
+/* No title for embedded sections */
+.markdown-embed-content h1, h2, h3, h4, h5 { display: none !important; }
 div.markdown-embed-link {         /* Move the link on the right of the embed */
   width: 50px !important;
   height: 100%;
 }
 
-.internal-embed div.markdown-preview-sizer {
-  margin-left: 0 !important;                             /* Less left margin */
-}
 
 /* FOOTNOTES */
 
@@ -132,3 +131,24 @@ span.cm-bracket.cm-math {
 }
 
 /* H6 is styled separately */
+
+/* TAGS: make them normal */
+/* Preview */
+a.tag {
+  all: unset;
+  font-weight: 800;
+  cursor: pointer;
+  color: var(--yellow0);
+}
+
+a.tag:hover {
+  border: none;
+  color: var(--yellow1);
+}
+
+/* Edit */
+.cm-hashtag.cm-hashtag-begin, .cm-hashtag.cm-hashtag-end {
+  all: unset;
+  font-weight: 800;
+  color: var(--yellow0);
+}

@@ -1,17 +1,14 @@
-My collection of css snippets for [Obsidian](https://obsidian.md).
-
 ### Drop caps
 
-
-This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian.
-
-The letter to alter is sourrounded by the following tags:
+This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian. It works by assigning a specific font to a characted who has been given the 'dcaps' css class:
 
 ```html
 <span style="dcaps">I</span>
 ```
 
 ![dropcaps](media/drop-caps.png)
+
+This was inspired by [gwern.net](https://gwern.net/design#principles).
 
 ### Embeddable quotes
 
