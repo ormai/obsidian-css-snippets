@@ -32,7 +32,10 @@ code {
 
 /* EMBEDS */
 /* No title for embedded sections */
-.markdown-embed-content h1, h2, h3, h4, h5 { display: none !important; }
+.markdown-embed-content h1, .markdown-embed-content h2, .markdown-embed-content h3,
+.markdown-embed-content h4, .markdown-embed-content h5 { 
+  display: none !important; 
+}
 div.markdown-embed-link {         /* Move the link on the right of the embed */
   width: 50px !important;
   height: 100%;
