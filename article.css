@@ -1,0 +1,19 @@
+@media (min-width: 1100px) { 
+  .markdown-reading-view .article {
+    max-width: 65% !important;
+    margin: auto;
+  }
+}
+
+.markdown-reading-view .article {
+  font-family: "Libre Baskerville";
+}
+
+.article h1, .article h2, .article h3, .article h4, .article h5 {
+  text-align: center;
+}
+
+.article mjx-container {
+  color: var(--text-normal);
+  font-size: 1.2em;
+}
