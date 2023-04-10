@@ -1,3 +1,5 @@
+# Snippets
+
 ### Drop caps
 
 This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian. It works by assigning a specific font to a characted who has been given the 'dcaps' css class:
@@ -29,3 +31,17 @@ Images have rounded corners, nice hover effect, shadows and they can be aligned.
 ```
 
 ![images](media/images.gif)
+
+### Article
+
+Scientific papers, blogposts, excerpts, etc., need to have a different style than the common note. `article.css` applies a custom font, shrinks the reading length and centers the headings.
+
+Syntax:
+
+```yaml
+---
+cssclass: article
+---
+```
+
+![article](media/article.png)
