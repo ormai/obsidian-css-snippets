@@ -1,69 +1,69 @@
 /* GRUVBOX - https://github.com/morhetz/gruvbox#palette */
 
 .theme-dark {
-  --bg: var(--bg0);
-  --fg: var(--fg1);
+    --bg: var(--bg0);
+    --fg: var(--fg1);
 
-  --orange0:  #D65D0E;
-  --orange1:  #FE8019;
-  --red0:     #CC241D;
-  --red1:     #FB4934;
-  --green0:   #98971A;
-  --green1:   #B8BB26;
-  --yellow0:  #D79921;
-  --yellow1:  #FABD2F;
-  --blue0:    #458588;
-  --blue1:    #83A598;
-  --purple0:  #B16286;
-  --purple1:  #D3869B;
-  --aqua0:    #689D6A;
-  --aqua1:    #8EC07C;
+    --orange0:  #D65D0E;
+    --orange1:  #FE8019;
+    --red0:     #CC241D;
+    --red1:     #FB4934;
+    --green0:   #98971A;
+    --green1:   #B8BB26;
+    --yellow0:  #D79921;
+    --yellow1:  #FABD2F;
+    --blue0:    #458588;
+    --blue1:    #83A598;
+    --purple0:  #B16286;
+    --purple1:  #D3869B;
+    --aqua0:    #689D6A;
+    --aqua1:    #8EC07C;
 
-  --bg0_h:    #1D2021;
-  --bg0:      #282828;
-  --bg0_s:    #32302F;
-  --bg1:      #3C3836;
-  --bg2:      #504945;
-  --bg3:      #665C54;
-  --bg4:      #7C6F64;
-  --gray:     #928374;
-  --fg4:      #A89984;
-  --fg3:      #BDAE93;
-  --fg2:      #D5C4A1;
-  --fg1:      #EBDBB2;
-  --fg0:      #FBF1C7;
+    --bg0_h:    #1D2021;
+    --bg0:      #282828;
+    --bg0_s:    #32302F;
+    --bg1:      #3C3836;
+    --bg2:      #504945;
+    --bg3:      #665C54;
+    --bg4:      #7C6F64;
+    --gray:     #928374;
+    --fg4:      #A89984;
+    --fg3:      #BDAE93;
+    --fg2:      #D5C4A1;
+    --fg1:      #EBDBB2;
+    --fg0:      #FBF1C7;
 }
 
 .theme-light {
-  --bg: var(--bg0);
-  --fg: var(--fg1);
+    --bg: var(--bg0);
+    --fg: var(--fg1);
 
-  --orange0:  #D65D0E;
-  --orange1:  #AF3A03;
-  --red0:     #CC241D;
-  --red1:     #9d0006;
-  --green0:   #98971A;
-  --green1:   #79740E;
-  --yellow0:  #D79921;
-  --yellow1:  #B57614;
-  --blue0:    #458588;
-  --blue1:    #076678;
-  --purple0:  #B16286;
-  --purple1:  #8F3F71;
-  --aqua0:    #689D6A;
-  --aqua1:    #427B58;
+    --orange0:  #D65D0E;
+    --orange1:  #AF3A03;
+    --red0:     #CC241D;
+    --red1:     #9d0006;
+    --green0:   #98971A;
+    --green1:   #79740E;
+    --yellow0:  #D79921;
+    --yellow1:  #B57614;
+    --blue0:    #458588;
+    --blue1:    #076678;
+    --purple0:  #B16286;
+    --purple1:  #8F3F71;
+    --aqua0:    #689D6A;
+    --aqua1:    #427B58;
 
-  --bg0_h:    #F9F5D7;
-  --bg0:      #FBF1C7;
-  --bg0_s:    #F2E5BC;
-  --bg1:      #EBDBB2;
-  --bg2:      #D5C4A1;
-  --bg3:      #BDAE93;
-  --bg4:      #A89984;
-  --gray:     #928374;
-  --fg4:      #7C6F64;
-  --fg3:      #665C54;
-  --fg2:      #504945;
-  --fg1:      #3C3836;
-  --fg0:      #282828;
+    --bg0_h:    #F9F5D7;
+    --bg0:      #FBF1C7;
+    --bg0_s:    #F2E5BC;
+    --bg1:      #EBDBB2;
+    --bg2:      #D5C4A1;
+    --bg3:      #BDAE93;
+    --bg4:      #A89984;
+    --gray:     #928374;
+    --fg4:      #7C6F64;
+    --fg3:      #665C54;
+    --fg2:      #504945;
+    --fg1:      #3C3836;
+    --fg0:      #282828;
 }

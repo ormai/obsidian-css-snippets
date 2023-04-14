@@ -3,16 +3,16 @@
 
 /* .dcaps sets a different fonts to the text which is assigned */
 .dcaps {
-  color: var(--fg);
-  float: left;
-  font-family: "Acorn Initials"; /* Most important */
-  font-size: 6em;
-  line-height: 100%;
-  margin: 0 0 -10px 0;
-  width: 100px;
+    color: var(--fg);
+    float: left;
+    font-family: "Acorn Initials"; /* Most important */
+    font-size: 6em;
+    line-height: 100%;
+    margin: 0 0 -10px 0;
+    width: 100px;
 }
 
 .dcaps:hover {
-  color: var(--orange1);
-  transition: color 0.2s ease-in-out;
+    color: var(--orange1);
+    transition: color 0.2s ease-in-out;
 }
