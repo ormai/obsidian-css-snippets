@@ -2,7 +2,7 @@
 
 ### Drop caps
 
-This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian. It works by assigning a specific font to a characted who has been given the 'dcaps' css class:
+This snippet implements [drop caps](https://en.wikipedia.org/wiki/Initial) in Obsidian. It works by assigning a specific font to a character which has been given the `dcaps` class:
 
 ```html
 <span class="dcaps">I</span>
@@ -34,9 +34,7 @@ Images have rounded corners, nice hover effect, shadows and they can be aligned.
 
 ### Article
 
-Scientific papers, blogposts, excerpts, etc., need to have a different style than the common note. `article.css` applies a custom font, shrinks the reading length, centers the headings and tones down the colors.
-
-The purpose of this is to make it printable and sharable.
+Scientific papers, blogposts, excerpts, etc., need to have a different style than the common note. `article.css` applies a custom font, shrinks the reading length, centers the headings and tones the color palette.
 
 Syntax:
 
