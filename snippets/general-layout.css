@@ -1,0 +1,10 @@
+/* Text is justified */
+p {
+    text-align: justify;
+}
+
+/* Tables are centered */
+.markdown-preview-view table { 
+    margin-left: auto;
+    margin-right: auto;
+}

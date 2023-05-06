@@ -1,0 +1,20 @@
+/* Callout types and icons are defined in CSS, where the color is an r, g, b tuple
+and the icon is the icon ID from any internally supported icon (like lucide-info). 
+Alternatively, you can specify an SVG icon as a string.
+.callout[data-callout="my-callout-type"] {
+  --callout-color: 0, 0, 0;
+  --callout-icon: icon-id;
+  --callout-icon: '<svg>...custom svg...</svg>';
+}
+source: https://help.obsidian.md/How+to/Use+callouts#Customizations
+*/
+
+/* Adjust the margin of the callout content */
+div.callout-content p {
+  margin: 3px 0 !important;
+}
+
+div.callout-title-inner {
+  color: var(--fg);
+  margin-left: 8px;
+}

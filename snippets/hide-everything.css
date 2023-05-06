@@ -1,0 +1,11 @@
+/* Tabs bar */
+.workspace-ribbon { display: none; } 
+
+/* Sidebars */
+.workspace-tab-header-container { display: none; } 
+
+/* Status bar */
+.status-bar {display: none }
+
+/* Header */
+.view-header {display: none !important}
