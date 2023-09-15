@@ -1,33 +1,33 @@
 /*
-    https://github.com/ormai
+  https://github.com/ormai
 
-    Outile of this file:
-      - COLORS
-      - EMBEDS
-      - FOOTNOTES
-      - YAML syntax highlighting
-      - MathJax syntax highlighing
-      - HEADINGS
-      - TAGS
+  Outile of this file:
+    - COLORS
+    - EMBEDS
+    - FOOTNOTES
+    - YAML syntax highlighting
+    - MathJax syntax highlighing
+    - HEADINGS
+    - TAGS
 */
 
 /* COLORS */
 @import "colors.css"; /* Not really needed inside obsidian. */
 
 * {
-    --bold-color: var(--green1);
-    --italic-color: var(--blue1);
+  --bold-color: var(--green1);
+  --italic-color: var(--blue1);
 }
 
 mjx-container {
-    font-size: 24px;  color: var(--red1); /* $math$ */
+  font-size: 24px;  color: var(--red1); /* $math$ */
 }
 code {
-    padding: 2px 3px 3px !important; /* `code` */
+  padding: 2px 3px 3px !important; /* `code` */
 }
 
 .nav-folder-children .nav-folder-children{
-    border-left: 1px solid var(--yellow1) !important; /* Open folder guide */
+  border-left: 1px solid var(--yellow1) !important; /* Open folder guide */
 }
 
 /* EMBEDS */
@@ -35,99 +35,99 @@ code {
 .markdown-embed-content h1, .markdown-embed-content h2,
 .markdown-embed-content h3, .markdown-embed-content h4,
 .markdown-embed-content h5 { 
-    display: none !important; 
+  display: none !important; 
 }
 /* Move the link on the right of the embed */
 div.markdown-embed-link {
-    width: 50px !important;
-    height: 100%;
+  width: 50px !important;
+  height: 100%;
 }
 
 /* FOOTNOTES */
 .cm-s-obsidian .HyperMD-footnote, .footnotes {
-    font-size: var(--font-normal) !important;
+  font-size: var(--font-normal) !important;
 }
 
 /* TABLES */
 th, td, .cm-s-obsidian .HyperMD-table-row { /* Normalize the font */
-    font-size: var(--font-normal) !important;
-    color: var(--table-text-color) !important;
+  font-size: var(--font-normal) !important;
+  color: var(--table-text-color) !important;
 }
 
 /* yaml syntax hightlighting */
 .cm-s-obsidian .cm-def.cm-hmd-frontmatter,
 .cm-s-obsidian .cm-hmd-frontmatter {
-    font-size: var(--font-normal); /* Normalize font */
+  font-size: var(--font-normal); /* Normalize font */
 }
 
 span.cm-def.cm-hmd-frontmatter {
-    color: var(--yellow1) !important; /* --- */
+  color: var(--yellow1) !important; /* --- */
 }
 
 span.cm-atom.cm-hmd-frontmatter {
-    color: var(--aqua1) !important; /* keys */
+  color: var(--aqua1) !important; /* keys */
 }
 
 span.cm-hmd-frontmatter.cm-meta {
-    color: var(--purple1) !important; /* symbols */
+  color: var(--purple1) !important; /* symbols */
 }
 
 .cm-variable-2 {
-    color: var(--aqua1) !important; /* variables */
+  color: var(--aqua1) !important; /* variables */
 }
 
 /*  MathJax syntax hightlighting */
 
 .cm-s-obsidian .cm-inline-code,
 .cm-s-obsidian .cm-math {
-    color: var(--orange1); /* symbols */
+  color: var(--orange1); /* symbols */
 }
 
 span.cm-math {
-    font-style: normal !important; /* Avoid italic */
+  font-style: normal !important; /* Avoid italic */
 }
 
 .token.keyword, .cm-keyword, .cm-builtin {
-    color: var(--red1) !important; /* dollar signs */
+  color: var(--red1) !important; /* dollar signs */
 }
 
 span.cm-math.cm-tag {
-    color: var(--purple1) !important; /* MathJax \keywords */
+  color: var(--purple1) !important; /* MathJax \keywords */
 }
 
 span.cm-math.cm-number {
-    color: var(--yellow1); /* Numbers */
+  color: var(--yellow1); /* Numbers */
 }
 
 span.cm-bracket.cm-math {
-    color: var(--blue1); /* Brackets */
+  color: var(--blue1); /* Brackets */
 }
 
 /* HEADINGS */
 .cm-s-obsidian .cm-header-1,
 .markdown-preview-view h1, .markdown-rendered h1, h1 {
-    font-size: 1.9rem !important; 
-    /* text-shadow: var(--fg0) 0 0 3px; */
+  font-size: 1.9rem !important; 
+  /* text-shadow: var(--fg0) 0 0 3px; */
 }
 
 .cm-s-obsidian .cm-header-2,
 .markdown-preview-view h2, .markdown-rendered h2 {
-    font-size: 1.55rem !important;
+  font-size: 1.55rem !important;
 }
 
 .cm-s-obsidian .cm-header-3,
 .markdown-preview-view h3, .markdown-rendered h3 {
-    font-size: 1.45rem !important;
+  font-size: 1.45rem !important;
 }
 
 .cm-s-obsidian .cm-header-4,
 .markdown-preview-view h4, .markdown-rendered h4 {
-    font-size: 1.4rem !important;
+  font-size: 1.4rem !important;
 }
 
 .cm-s-obsidian .cm-header-5,
 .markdown-preview-view h5, .markdown-rendered h5 {
-    font-size: 1.3rem !important;
+  font-size: 1.3rem !important;
 }
 
 /* H6 is styled separately */
@@ -135,20 +135,20 @@ span.cm-bracket.cm-math {
 /* TAGS: make them normal */
 /* Preview */
 a.tag {
-    all: unset;
-    font-weight: 800;
-    cursor: pointer;
-    color: var(--yellow0);
+  all: unset;
+  font-weight: 800;
+  cursor: pointer;
+  color: var(--yellow0);
 }
 
 a.tag:hover {
-    border: none;
-    color: var(--yellow1);
+  border: none;
+  color: var(--yellow1);
 }
 
 /* Edit */
 .cm-hashtag.cm-hashtag-begin, .cm-hashtag.cm-hashtag-end {
-    all: unset;
-    font-weight: 800;
-    color: var(--yellow0);
+  all: unset;
+  font-weight: 800;
+  color: var(--yellow0);
 }

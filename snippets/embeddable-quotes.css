@@ -3,25 +3,25 @@
 
 /* Preview */
 .markdown-preview-view h6, .markdown-rendered h6, h6 {
-    padding-left: 10px;
-    border-left: var(--blockquote-border-thickness) solid var(--blockquote-border-color);
-    color: var(--blockquote-color); 
-    font-style: var(--blockquote-font-style);
-    font-variant: none; 
-    font-size: var(--font-normal) !important; 
+  padding-left: 10px;
+  border-left: var(--blockquote-border-thickness) solid var(--blockquote-border-color);
+  color: var(--blockquote-color); 
+  font-style: var(--blockquote-font-style);
+  font-variant: none; 
+  font-size: var(--font-normal) !important; 
 }
 
 /* Live preview, source mode */
 div.HyperMD-header.HyperMD-header-6.cm-line, span.cm-header.cm-header-6 {
-    font-size: var(--font-normal) !important;
-    font-variant: none;
-    color: var(--blockquote-color); 
+  font-size: var(--font-normal) !important;
+  font-variant: none;
+  color: var(--blockquote-color); 
 }
 
 /* H6 is not foldable */
 div.HyperMD-header.HyperMD-header-6.cm-line > div.cm-fold-indicator,
 h6 > div.heading-collapse-indicator.collapse-indicator.collapse-icon {
-    display: none
+  display: none
 }
 
 /* When embedded there is non need for margin. */
