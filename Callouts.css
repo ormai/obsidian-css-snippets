@@ -9,12 +9,12 @@ Alternatively, you can specify an SVG icon as a string.
 source: https://help.obsidian.md/How+to/Use+callouts#Customizations
 */
 
-/* Adjust the margin of the callout content */
-div.callout-content p {
-  margin: 3px 0 !important;
+.callout[data-callout="eg"] {
+  --callout-icon: lucide-list-minus;
+  --callout-color: var(--callout-example);
 }
 
-div.callout-title-inner {
-  color: var(--fg);
-  margin-left: 8px;
+/* Properly place the icon */
+div.callout-icon {
+  margin: auto 0.3rem auto 0;
 }

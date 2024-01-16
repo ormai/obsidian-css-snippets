@@ -1,0 +1,20 @@
+/* Always center tables */
+.markdown-preview-view table {
+  margin: 0 auto !important;
+}
+
+/* Always center mermaid diagrams and embedded images */
+.mermaid,
+.image-embed {
+  display: flex;
+  justify-content: center;
+}
+
+/* Remove the top margin of the first element in a note
+ * First child is .markdown-preview-pushser
+ * Second child is .mod-header
+ * Third child is a div parent of .frontmatter
+ * From the fourth onward there seem to be the actual document */
+.markdown-preview-sizer div:nth-of-type(4) * {
+  margin-top: 0 !important;
+}

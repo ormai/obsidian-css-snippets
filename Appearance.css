@@ -1,0 +1,67 @@
+body {
+  --italic-color: var(--color-base-60);
+  /* italic text is lighter in color */
+  --bold-weight: var(--font-bold);
+  /* bold text is bolder */
+  --link-decoration: none;
+  /* internal links are not underlined */
+
+  --background-primary: #242424 !important;
+  /* Blends in with Adwaita */
+}
+
+mjx-container {
+  font-size: var(--font-ui-large);
+  color: var(--color-base-100);
+}
+
+/* Use monospace font in source mode */
+.markdown-source-view.cm-s-obsidian:not(.is-live-preview) .cm-scroller {
+  font-family: var(--font-monospace);
+  font-size: var(--code-size);
+}
+
+.markdown-embed-title {
+  display: none;
+}
+
+/* TABLES */
+.HyperMD-table-row {
+  font-size: var(--font-normal) !important;
+}
+
+/* Syntax highlighting for YAML and MathJax */
+.cm-hmd-frontmatter,
+.cm-math {
+  font-style: normal !important;
+  font-size: var(--font-normal);
+}
+
+.cm-math,
+.cm-error.cm-math {
+  color: var(--code-operator) !important;
+  border: none !important;
+}
+
+.cm-math.cm-tag,
+.cm-atom.cm-hmd-frontmatter {
+  color: var(--code-important) !important;
+}
+
+.cm-hmd-frontmatter.cm-string,
+.cm-math.cm-variable-2 {
+  color: var(--code-string) !important;
+}
+
+.cm-number,
+.cm-hmd-frontmatter {
+  color: var(--code-value) !important;
+}
+
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def,
+.cm-bracket.cm-tag,
+.cm-bracket,
+.cm-s-obsidian span.cm-formatting-math,
+.cm-hmd-frontmatter.cm-meta {
+  color: var(--code-punctuation) !important;
+}
