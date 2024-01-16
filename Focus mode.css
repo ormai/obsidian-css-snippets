@@ -1,11 +1,7 @@
-/* Tabs bar */
-.workspace-ribbon { display: none; } 
-
-/* Sidebars */
-.workspace-tab-header-container { display: none; } 
-
-/* Status bar */
-.status-bar {display: none }
-
-/* Header */
-.view-header {display: none !important}
+/* Hide tabs bar, header bar, status bar, left ribbon, sidebars, ... */
+.workspace-ribbon,
+.workspace-tab-header-container,
+.status-bar,
+.view-header {
+  display: none !important;
+}
