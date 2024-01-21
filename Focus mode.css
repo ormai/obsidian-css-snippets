@@ -1,7 +1,11 @@
 /* Hide tabs bar, header bar, status bar, left ribbon, sidebars, ... */
-.workspace-ribbon,
-.workspace-tab-header-container,
-.status-bar,
-.view-header {
-  display: none !important;
+
+body:not(.is-mobile) {
+
+  .workspace-ribbon,
+  .workspace-tab-header-container,
+  .status-bar,
+  .view-header {
+    display: none !important;
+  }
 }
