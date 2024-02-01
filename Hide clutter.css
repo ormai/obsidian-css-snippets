@@ -3,6 +3,11 @@
   transition: none !important;
 }
 
+/* Turn off cursor blink */
+.cm-cursor, .cm-cursorLayer {
+  animation: none !important;
+}
+
 /* https://github.com/kepano/obsidian-hider */
 /* Scrollbars only show on hover */
 ::-webkit-scrollbar {
