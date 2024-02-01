@@ -1,0 +1,74 @@
+/* Adwaita color scheme
+ * https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/named-colors.html */
+
+.theme-dark {
+  --color-base-00: #1e1e1e;
+  --color-base-05: #242424;
+  --color-base-10: #272727;
+  --color-base-15: #2a2a2a;
+  --color-base-20: #303030;
+  --color-base-30: #3d3846;
+  --color-base-35: #5e5c64;
+  --color-base-40: #77767b;
+  --color-base-50: #9a9996;
+  --color-base-60: #c0bfbc;
+  --color-base-70: #deddda;
+  --color-base-100: #ffffff;
+
+  --accent-h: 212;
+  --accent-s: 76%;
+  --accent-l: 70%;
+
+  --color-red: #ed333b;
+  --color-red-rgb: 237, 51, 59;
+  --color-orange: #ffa348;
+  --color-orange-rgb: 255, 163, 72;
+  --color-yellow: #f8e45c;
+  --color-yellow-rgb: 248, 228, 92;
+  --color-green: #57e389;
+  --color-green-rgb: 87, 227, 137;
+  --color-cyan: #99c1f1;
+  --color-cyan-rgb: 153, 193, 241;
+  --color-blue: #3584e4;
+  --color-blue-rgb: 53, 132, 228;
+  --color-purple: #813d9c;
+  --color-purple-rgb: 129, 61, 156;
+  --color-pink: #dc8add;
+  --color-pink-rgb: 220, 138, 221;
+}
+
+.theme-light {
+  --color-base-00: #ffffff;
+  --color-base-05: #fafafa;
+  --color-base-10: #f6f5f4;
+  --color-base-20: #f2f2f2;
+  --color-base-25: #ebebeb;
+  --color-base-30: #deddda;
+  --color-base-35: #c0bfbc;
+  --color-base-40: #9a9996;
+  --color-base-50: #77767b;
+  --color-base-60: #303030;
+  --color-base-70: #242424;
+  --color-base-100: #000000;
+
+  --accent-h: 213;
+  --accent-s: 77%;
+  --accent-l: 48%;
+
+  --color-red: #a51d2d;
+  --color-red-rgb: 165, 29, 45;
+  --color-orange: #e66100;
+  --color-orange-rgb: 230, 97, 0;
+  --color-yellow: #f5c211;
+  --color-yellow-rgb: 245, 194, 17;
+  --color-green: #2ec27e;
+  --color-green-rgb: 46, 194, 126;
+  --color-cyan: #62a0ea;
+  --color-cyan-rgb: 98, 160, 234;
+  --color-blue: #1a5fb4;
+  --color-blue-rgb: 26, 95, 180;
+  --color-purple: #613583;
+  --color-purple-rgb: 97, 53, 131;
+  --color-pink: #c061cb;
+  --color-pink-rgb: 192, 97, 203;
+}
