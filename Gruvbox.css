@@ -1,8 +1,6 @@
 /* Gruvbox color scheme
  * https://github.com/morhetz/gruvbox#palette */
 
-/* Overwire the color palette */
-
 .theme-dark {
   --color-base-00: #282828;
   --color-base-05: #32302f;
