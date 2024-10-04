@@ -1,15 +1,22 @@
 /* Turn off all transitions */
+/*
 * {
   transition: none !important;
 }
+*/
 
-/* Turn off cursor blink */
-.cm-cursor, .cm-cursorLayer {
+.status-bar {
+  display: none;
+}
+
+/* Disable cursor blink */
+.cm-cursor,
+.cm-cursorLayer {
   animation: none !important;
 }
 
 /* https://github.com/kepano/obsidian-hider */
-/* Scrollbars only show on hover */
+/* Scrollbars only show on hover (might be tricky to find it) */
 ::-webkit-scrollbar {
   visibility: hidden;
 
@@ -30,27 +37,6 @@
   visibility: initial;
 }
 
-/* Vault name in the file navigator */
-.nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
-  display: none;
-}
-
-/* Suggestions, instructions and tooltips */
-.suggestion-container.mod-search-suggestion {
-  display: none;
-}
-
-/*
-.prompt-instructions {
-  display: none;
-}
-
-.tooltip {
-  display: none;
-}
-*/
-
-/* Options when no file is open */
-.empty-state-action-list {
+.markdown-embed-title {
   display: none;
 }

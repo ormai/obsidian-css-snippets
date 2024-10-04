@@ -1,15 +1,22 @@
 body {
-  --italic-color: var(--color-base-60);
-  /* italic text is lighter in color */
-  --bold-weight: var(--font-bold);
-  /* bold text is bolder */
-  --link-decoration: none;
   /* internal links are not underlined */
+  --link-decoration: none;
+
+  /* On GNOME, with 'Window frame style' set to 'Native frame'
+   * the titlebar blends with the tab bar */
+  &.theme-dark.mod-linux {
+    --titlebar-background: #353535 !important;
+    --titlebar-background-focused: #262626 !important;
+  }
+
+  &.theme-light.mod-linux {
+    --titlebar-background: #f6f5f4 !important;
+    --titlebar-background-focused: #dad6d2 !important;
+  }
 }
 
 mjx-container {
   font-size: var(--font-ui-large);
-  color: var(--color-base-100);
 }
 
 /* Use monospace font in source mode */
@@ -19,10 +26,6 @@ mjx-container {
   font-size: var(--code-size);
 }
 
-.markdown-embed-title {
-  display: none;
-}
-
 .HyperMD-table-row {
   font-size: var(--font-normal) !important;
 }
@@ -30,6 +33,7 @@ mjx-container {
 /* Syntax highlighting for YAML and MathJax */
 .cm-hmd-frontmatter,
 .cm-math {
+  /* no italics */
   font-style: normal !important;
   font-size: var(--font-normal);
 }

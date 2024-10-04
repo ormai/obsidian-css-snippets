@@ -7,7 +7,7 @@
   --color-base-10: #272727;
   --color-base-15: #2a2a2a;
   --color-base-20: #303030;
-  --color-base-30: #3d3846;
+  --color-base-30: #303030;
   --color-base-35: #5e5c64;
   --color-base-40: #77767b;
   --color-base-50: #9a9996;
@@ -15,9 +15,9 @@
   --color-base-70: #deddda;
   --color-base-100: #ffffff;
 
-  --accent-h: 212;
+  --accent-h: 213;
   --accent-s: 76%;
-  --accent-l: 70%;
+  --accent-l: 55%;
 
   --color-red: #ed333b;
   --color-red-rgb: 237, 51, 59;

@@ -5,7 +5,9 @@ body:not(.is-mobile) {
   .workspace-ribbon,
   .workspace-tab-header-container,
   .status-bar,
+  .titlebar,
   .view-header {
     display: none !important;
   }
+
 }
