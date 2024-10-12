@@ -1,40 +1,35 @@
-@media (min-width: 1100px) {
+.article {
+  @media (min-width: 1100px) {
 
-  /* Reduce the readeble line lenght on full-screen */
-  .markdown-reading-view .article {
-    max-width: 65% !important;
-    margin: auto;
+    /* Reduce the readeble line lenght on full-screen */
+    .markdown-reading-view & {
+      max-width: 65% !important;
+      margin: auto;
+    }
   }
-}
 
-.markdown-reading-view .article {
-  font-family: serif;
-}
-
-.article h1,
-.article h2,
-.article h3,
-.article h4,
-.article h5 {
-  text-align: center;
   /* Center headings */
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
 
-.article mjx-container {
-  color: var(--text-normal);
-  /* Math formulas have the normal color and a */
-  font-size: 1.2em;
-  /* normal size */
-}
+  }
 
-.article a {
-  color: var(--fg3);
-}
+  mjx-container {
+    /* normal size */
+    font-size: 1.2em;
+  }
 
-.article strong {
-  color: var(--fg3);
-}
+  p {
+    text-align: justify;
+  }
 
-.article em {
-  color: var(--fg0);
+  .markdown-reading-view & {
+    /* Specify your favorite font */
+    font-family: "Source Serif Pro", serif;
+  }
 }

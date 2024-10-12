@@ -1,18 +1,15 @@
 /* DROP CAPS */
 /* Inspired by: https://www.gwern.net/Design#principles */
 
-.dcaps {
-  color: var(--fg);
+/* We assume that the first paragraph is inside the sixth div in the page.*/
+.dcaps .markdown-preview-sizer div:nth-of-type(6) > p::first-letter {
   float: inline-start;
-  /* With this the initial is applied only to the */
-  /* first line of the paragraph */
 
-  font-family: "Acorn Initials";
-  font-size: 5em;
-  line-height: 1em;
-}
+  /* A fancy font for the initial is required */
+  font-family: "Acorn Initials", serif;
 
-.dcaps:hover {
-  color: var(--gray);
-  transition: color 0.2s ease-in-out;
+  /* These may need to get adjusted with different fonts */
+  font-size: calc(var(--font-text-size) * 5);
+  line-height: 0.9em;
+  margin-right: 0.1em;
 }
