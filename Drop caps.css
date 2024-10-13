@@ -1,8 +1,7 @@
 /* DROP CAPS */
 /* Inspired by: https://www.gwern.net/Design#principles */
 
-/* We assume that the first paragraph is inside the sixth div in the page.*/
-.dcaps .markdown-preview-sizer div:nth-of-type(6) > p::first-letter {
+.dcaps .markdown-preview-sizer *:not(:has(>p))+div>p:first-of-type::first-letter {
   float: inline-start;
 
   /* A fancy font for the initial is required */
