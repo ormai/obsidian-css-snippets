@@ -5,6 +5,11 @@
 }
 */
 
+/* Hide tab bar when stacked tab mode is enabled */
+.mod-stacked .workspace-tab-header-container {
+  display: none !important;
+}
+
 .status-bar {
   display: none;
 }
