@@ -5,10 +5,13 @@
 }
 
 /* Always center mermaid diagrams and embedded images */
-.mermaid,
 .image-embed,
 .excalidraw-embedded-img {
   margin: auto !important;
+}
+.mermaid {
+  display: flex;
+  justify-content: center;
 }
 
 /* ![[img.png|right|100]] */
