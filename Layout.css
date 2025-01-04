@@ -9,6 +9,7 @@
 .excalidraw-embedded-img {
   margin: auto !important;
 }
+
 .mermaid {
   display: flex;
   justify-content: center;
@@ -51,4 +52,9 @@ aliases: ...
 /* Callouts: Apply uniform margins left and right. Center the icon vertically. */
 div.callout-icon {
   margin: auto 1em auto 0;
+}
+
+/* remove redundant padding at the bottom */
+.callout:not(.is-collapsible):has(.callout-content) {
+  padding-bottom: 0 !important;
 }
