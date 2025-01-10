@@ -4,18 +4,20 @@
   margin: 0 auto !important;
 }
 
-/* Always center mermaid diagrams and embedded images */
-.image-embed,
 .excalidraw-embedded-img {
   margin: auto !important;
 }
 
+/* Always center mermaid diagrams and images */
+p:has(.image-embed),
+p:has(img),
 .mermaid {
   display: flex;
   justify-content: center;
 }
 
 /* ![[img.png|right|100]] */
+
 .image-embed[alt*="left"] {
   float: left;
   clear: left;
