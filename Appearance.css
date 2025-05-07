@@ -5,13 +5,13 @@ body {
   /* On GNOME, with 'Window frame style' set to 'Native frame'
    * the titlebar blends with the tab bar */
   &.theme-dark.mod-linux {
-    --titlebar-background: #242424 !important;
-    --titlebar-background-focused: #303030 !important;
+    --titlebar-background: #222226 !important;
+    --titlebar-background-focused: #2E2E32 !important;
   }
 
   &.theme-light.mod-linux {
-    --titlebar-background: #fafafa !important;
-    --titlebar-background-focused: #EBEBEB !important;
+    --titlebar-background: #FAFAFB !important;
+    --titlebar-background-focused: #EBEBED !important;
   }
 }
 
