@@ -1,9 +1,16 @@
 /* Turn off all transitions */
-/*
 * {
   transition: none !important;
 }
-*/
+
+/* Hide maximize, minimize, and close buttons in the title bar */
+.titlebar-button-container.mod-right, .workspace-tab-header-container::after {
+  display: none !important;
+}
+
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+  padding-right: calc(var(--size-4-2) + var(--frame-left-space));
+}
 
 /* Hide tab bar when stacked tab mode is enabled */
 .mod-stacked .workspace-tab-header-container {
