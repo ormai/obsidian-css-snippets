@@ -1,5 +1,5 @@
 body {
-  /* internal links are not underlined */
+  /* Internal links are not underlined */
   --link-decoration: none;
 
   /* On GNOME, with 'Window frame style' set to 'Native frame'

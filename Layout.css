@@ -38,19 +38,6 @@ p:has(img),
   margin-top: 0 !important;
 }
 
-/* Note level class: the width of the note is the screen width */
-/* Use like this:
----
-cssclass: fullwidth
-tags: ...
-aliases: ...
-...
----
-*/
-.fullwidth {
-  --file-line-width: 100% !important;
-}
-
 /* Callouts: Apply uniform margins left and right. Center the icon vertically. */
 div.callout-icon {
   margin: auto 1em auto 0;
